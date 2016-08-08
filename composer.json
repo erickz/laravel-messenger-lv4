@@ -1,13 +1,13 @@
 {
-    "name": "cmgmyr/messenger",
-    "description": "Simple user messaging tool for Laravel",
-    "keywords": ["laravel", "messenger", "messaging", "user messaging"],
+    "name": "erickz/laravel-messenger-lv4",
+    "description": "Simple user messaging tool for Laravel 4. A copy from Chris Gmyr.",
+    "keywords": ["laravel", "messenger", "laravel4", "messaging", "user messaging"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Gmyr",
-            "email": "cmgmyr@gmail.com",
-            "homepage": "https://github.com/cmgmyr",
+            "name": "Erick Carvalho",
+            "email": "erickcmiguel@gmail.com",
+            "homepage": "https://github.com/erickz",
             "role": "Developer"
         }
     ],
