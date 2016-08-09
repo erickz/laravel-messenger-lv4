@@ -1,13 +1,13 @@
-[![Build Status](https://img.shields.io/travis/cmgmyr/laravel-messenger/v1.svg?style=flat-square)](https://travis-ci.org/cmgmyr/laravel-messenger)
-[![Code Climate](https://img.shields.io/codeclimate/github/cmgmyr/laravel-messenger.svg?style=flat-square)](https://codeclimate.com/github/cmgmyr/laravel-messenger)
-[![Latest Version](https://img.shields.io/github/release/cmgmyr/laravel-messenger.svg?style=flat-square)](https://github.com/cmgmyr/laravel-messenger/releases)
+[![Build Status](https://img.shields.io/travis/erickz/laravel-messenger-lv4/v1.svg?style=flat-square)](https://travis-ci.org/erickz/laravel-messenger-lv4)
+[![Code Climate](https://img.shields.io/codeclimate/github/erickz/laravel-messenger-lv4.svg?style=flat-square)](https://codeclimate.com/github/erickz/laravel-messenger-lv4)
+[![Latest Version](https://img.shields.io/github/release/erickz/laravel-messenger-lv4.svg?style=flat-square)](https://github.com/erickz/laravel-messenger-lv4/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 # Laravel Messenger
 This package will allow you to add a full user messaging system into your Laravel application.
 
 ## Leave some feedback
-[How are you using laravel-messenger?](https://github.com/cmgmyr/laravel-messenger/issues/55)
+[How are you using laravel-messenger?](https://github.com/erickz/laravel-messenger-lv4/issues/55)
 
 ## Features
 * Multiple conversations per user
@@ -26,7 +26,7 @@ This package will allow you to add a full user messaging system into your Larave
 In composer.json:
 
     "require": {
-        "cmgmyr/messenger": "~1.0"
+        "erickz/messenger": "dev-master"
     }
 
 Run:
@@ -42,7 +42,7 @@ Add the service provider to `app/config/app.php` under `providers`:
 Add the trait to your user model:
 
     use Cmgmyr\Messenger\Traits\Messagable;
-    
+
     class User extends Eloquent {
     	use Messagable;
     }
@@ -62,7 +62,7 @@ Move and alter the config file (optional):
 * [Routes](https://github.com/cmgmyr/laravel-messenger/blob/v1/src/Cmgmyr/Messenger/examples/routes.php)
 * [Views](https://github.com/cmgmyr/laravel-messenger/tree/v1/src/Cmgmyr/Messenger/examples/views)
 
-## Contributing? 
+## Contributing?
 Please format your code before creating a pull-request:
 
     vendor/bin/php-cs-fixer fix --level psr2 .
